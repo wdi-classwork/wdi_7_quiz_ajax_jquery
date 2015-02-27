@@ -57,7 +57,7 @@ var user_input = $('#color');
 
 ### Question 7
 This code looks like it works, but when you run it, you see that the `UserApp.add_all_users()` function executes but `console.log` displays `undefined`. What's wrong with the code?
-console.log returns undefined
+data is not defined outside of the .done()
 
 ```
 UserApp.get_all_users = function() {
